@@ -1,9 +1,5 @@
 // READ THE README TO UNDERSTAND HOW TO MAKE IT WORK PERFECTLY
 
-// ENUS - 
-// ES -
-// PTBR - 
-
 // ENUS - Exporting the dependencies
 // ES - Exportar dependencias
 // PTBR - Exportando as dependencias
@@ -38,6 +34,9 @@ client.slashCommands = new Discord.Collection()
 // PTBR - Exportando o client para utilizar em outros arquivos
 module.exports = client
 
+// ENUS - Running Event and SlashCommand handlers
+// ES - Ejecutando como handlers de Eventos y SlashCommands
+// PTBR - Executando as handlers de Eventos e SlashCommands
 require('./src/handlers/slashCommands')(client)
 require('./src/handlers/events')(client)
 
